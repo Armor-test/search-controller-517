@@ -1,0 +1,34 @@
+# CODEOWNERS file for search-controller-517
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-test @Armor-test/dept-reporting @Armor-test/squad-search
+
+# Directory ownership
+/ui/ @Armor-test/dept-reliability @Armor-test/squad-tooling
+/middleware/ @Armor-test/unit-cloud @Armor-test/unit-design
+/db/ @Armor-test/unit-cloud @Armor-test/squad-research @Armor-test/dept-notifications
+/styles/ @Armor-test/grp-reporting @Armor-test/grp-search @Armor-test/team-research
+/services/ @Armor-test/squad-mobile @Armor-test/squad-tooling
+/plugins/ @Armor-test/dept-security @Armor-test/dept-identity
+/examples/ @Armor-test/dept-reliability @Armor-test/dept-logging @Armor-test/unit-devops
+/components/ @Armor-test/squad-apps @Armor-test/dept-ui @Armor-test/squad-qa
+/tools/ @Armor-test/squad-tooling @Armor-test/grp-reporting
+/hooks/ @Armor-test/squad-apps @Armor-test/dept-reliability @Armor-test/unit-devops
+/controllers/ @Armor-test/grp-payments @Armor-test/unit-governance
+/data/ @Armor-test/squad-apps @Armor-test/grp-integration
+
+# File type ownership
+*.md @Armor-test/team-logging @Armor-test/dept-data
+*.jsx @Armor-test/dept-security @Armor-test/squad-cache @Armor-test/dept-logging
+*.lock @Armor-test/team-governance @Armor-test/dept-release @Armor-test/squad-api
+*.sh @Armor-test/squad-reporting @Armor-test/dept-automation
+*.proto @Armor-test/squad-mobile @Armor-test/team-governance
+*.c @Armor-test/team-frontend @Armor-test/squad-product
+*.tf @Armor-test/dept-api @Armor-test/squad-apps
+*.py @Armor-test/grp-reporting @Armor-test/dept-reporting
+*.ini @Armor-test/team-reporting @Armor-test/team-frontend
+*.yaml @Armor-test/squad-ux @Armor-test/squad-product @Armor-test/dept-release
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
